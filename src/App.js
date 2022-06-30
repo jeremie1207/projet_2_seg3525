@@ -2,7 +2,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Component/Home';
 import MyNavBar from './Component/NavBar/MyNavBar';
-import Services from './Component/Services';
 
 
 import React from 'react';
