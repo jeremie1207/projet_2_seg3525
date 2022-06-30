@@ -19,9 +19,9 @@ const MyNavNar = () => {
                             navbarScroll
                         >
                             <Nav.Link href='/'>Accueil</Nav.Link>
-                            <Nav.Link href="/#services">Nos services</Nav.Link>
+                            <Nav.Link href="#services">Nos services</Nav.Link>
                             <Nav.Link href="#notre_equipe" disabled>Notre équipe</Nav.Link>
-                            <Nav.Link href="/#comments">Avis de nos client</Nav.Link>
+                            <Nav.Link href="#comments">Avis de nos client</Nav.Link>
                             <Nav.Link href="#contact" disabled>Contact</Nav.Link>
 
                         </Nav>
