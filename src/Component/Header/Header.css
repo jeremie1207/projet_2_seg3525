@@ -1,0 +1,36 @@
+.header{
+    background-image: url('dog.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 7em;
+    color: white;
+}
+
+.header-contains{
+    width: 50%;
+}
+
+.btn-green{
+    background-color: #39AEA9;
+    border-radius: 5px;
+    padding: .4em;
+    color: white;
+    border: none;
+    text-decoration: none;
+
+}
+.btn-green:hover{
+    background-color: #41d2ca;
+    text-decoration: none;
+    color:white;
+}
+
+@media only screen and (max-width: 700px) {
+    .header{
+       padding: 4em;
+    }
+    .header-contains {
+      width: 100%;
+    }
+  }

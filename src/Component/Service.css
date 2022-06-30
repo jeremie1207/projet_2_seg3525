@@ -1,0 +1,20 @@
+.flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.service-elem{
+    margin: .5rem 1rem;
+}
+.title-service{
+    color: #39AEA9;
+}
+
+@media only screen and (max-width: 700px) {
+    .service-elem{
+       margin: .5rem 0;
+    }
+  
+  }
+
