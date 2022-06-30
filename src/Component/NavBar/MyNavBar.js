@@ -11,14 +11,14 @@ const MyNavNar = () => {
         <div className='my-nav-bar'>
             <Navbar expand="lg" variant="dark">
                 <Container>
-                    <Navbar.Brand href="/">VET CLINIC</Navbar.Brand>
+                    <Navbar.Brand href="#">VET CLINIC</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
                             className="ms-auto"
                             navbarScroll
                         >
-                            <Nav.Link href='/'>Accueil</Nav.Link>
+                            <Nav.Link href='#'>Accueil</Nav.Link>
                             <Nav.Link href="#services">Nos services</Nav.Link>
                             <Nav.Link href="#notre_equipe" disabled>Notre équipe</Nav.Link>
                             <Nav.Link href="#comments">Avis de nos client</Nav.Link>
