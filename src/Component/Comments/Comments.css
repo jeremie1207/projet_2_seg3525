@@ -15,7 +15,7 @@
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
-    margin: .50rem 0;
+    margin: .1rem 0;
     
 }
 
@@ -37,4 +37,8 @@
 .textarea{
     min-height: 10rem;
     resize: none;
+}
+
+.error{
+    color:red;
 }
